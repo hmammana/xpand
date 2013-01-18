@@ -1,0 +1,152 @@
+[class*="expand"],
+[class*="row"] {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	display: inline-block;
+	float: left;
+	margin: 0 -2% 0 3%;
+	position: relative;
+	width: 100%;
+}
+
+.row {
+	margin-left: 0;
+	clear: left;
+}
+
+.expand-3 {
+	width: 100%;
+}
+
+.expand-2 {
+	width: 66.332%;
+}
+
+.expand-1 {
+	width: 32.666%;
+}
+
+@media all and (min-width: 48em) and (max-width: 64em) {
+	
+	[data-medium*="expand"] {
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		display: inline-block;
+		float: left;
+		margin: 0 -2% 0 3%;
+		position: relative;
+	}
+
+	[data-medium~="row"] {
+		margin-left: 0;
+		clear: left;
+	}
+
+	.row[data-medium*="expand"]:not([data-medium~="row"]){
+		margin-left: 3%;
+		clear:none;
+	}
+
+	.expand-1:not([data-medium*="expand"]),
+	[data-medium~="expand-1"] {
+		width: 15.833%;
+	}
+
+	.expand-2:not([data-medium*="expand"]),
+	[data-medium~="expand-2"] {
+		width: 32.666%;
+	}
+
+	.expand-3:not([data-medium*="expand"]),
+	[data-medium~="expand-3"] {
+		width: 49.5%;
+	}
+
+	[data-medium~="expand-4"] {
+		width: 66.332%;
+	}
+
+	[data-medium~="expand-5"] {
+		width: 83.2%;
+	}
+
+	[data-medium~="expand-6"] {
+		width: 100%;
+	}
+
+}
+
+@media all and (min-width: 64em) {
+	
+	[data-large*="expand"]
+	{
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		display: inline-block;
+		float: left;
+		margin: 0 -2% 0 3%;
+		position: relative;
+	}
+
+	[data-large~="row"] {
+		margin-left: 0;
+		clear: left;
+	}
+
+	.row[data-large*="expand"]:not([data-large~="row"]){
+		margin-left: 3%;
+		clear: none;
+	}
+
+	.expand-1:not([data-large*="expand"]),
+	[data-large~="expand-1"] {
+		width: 7.416%;
+	}
+
+	.expand-2:not([data-large*="expand"]),
+	[data-large~="expand-2"] {
+		width: 15.832%;
+	}
+
+	.expand-3:not([data-large*="expand"]),
+	[data-large~="expand-3"] {
+		width: 24.248%;
+	}
+
+	[data-large~="expand-4"] {
+		width: 32.664%;
+	}
+
+	[data-large~="expand-5"] {
+		width: 41.08%;
+	}
+
+	[data-large~="expand-6"] {
+		width: 49.496%;
+	}
+
+	[data-large~="expand-7"] {
+		width: 57.912%;
+	}
+
+	[data-large~="expand-8"] {
+		width: 66.328%;
+	}
+
+	[data-large~="expand-9"] {
+		width: 74.744%;
+	}
+
+	[data-large~="expand-10"] {
+		width: 83.16%;
+	}
+
+	[data-large~="expand-11"] {
+		width: 91.576%;
+	}
+
+	[data-large~="expand-12"] {
+		width: 100%;
+	}
+
+}

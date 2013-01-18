@@ -1,0 +1,61 @@
+body
+{
+	font-family: arial, helvetica, sans-serif;
+	font-size: 80%;
+	margin: 0 2%;
+}
+
+header {
+	background-color: rgba(33,99,33,0.1);
+	color: #333;
+}
+
+
+nav, footer {
+	background-color: rgba(33,33,33,0.3);
+}
+
+nav {
+	min-height: 65px;
+}
+
+nav a {
+	text-align: center;
+	display: block;
+	line-height: 3em;
+	vertical-align: middle;
+	background-color: rgba(33,33,33,0.3);
+	border-radius: 3px;
+	color: white;
+	text-decoration: none;
+}
+
+nav a:hover {
+	background-color: rgba(33,33,33,0.1);
+	color: #333;
+}
+
+nav a:active {
+	background-color: rgba(33,33,33,0.6);
+}
+
+nav input[type="search"] {
+	display: block;
+	margin: 1em auto;
+	padding: 0;
+	width: 94%;
+	line-height: 2em;
+	height: 2em;
+}
+
+aside article {
+	background-color: rgba(33,33,33,0.1);
+	color: #333;
+	border-radius: 3px;
+}
+
+section article {
+	background-color: rgba(33,33,99,0.1);
+	color: #333;
+	border-radius: 3px;
+}
