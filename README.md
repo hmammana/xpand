@@ -6,29 +6,40 @@ When more space more columns. So you can distribute your design differently.
 
 It has modules. One module is the less expression in the grid. This module can expand to place one or more modules. To more expansion more important is the content in that specific grid. 
 
+##Kind of Grids
+
+
+###Small Screen
 ```
- » small «
-|̅̅̅̅̅̅̅̅| » max module expand
-|̅̅|̅̅|̅̅| » min module expand
-|̅̅|̅̅̅̅̅| » module convintations 
- ̅̅̅̅̅̅̅̅
- » medium «
-|̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅| » max module expand
-|̅̅|̅̅|̅̅|̅̅|̅̅|̅̅| » min module expand
-|̅̅|̅̅̅̅̅̅̅̅̅̅̅̅̅̅| » module convintations 
-|̅̅̅̅̅|̅̅̅̅̅̅̅̅̅̅̅|
-|̅̅̅̅̅̅̅̅|̅̅̅̅̅̅̅̅|
- ̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅
- » large «
-|̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅| » max module expand
-|̅̅|̅̅|̅̅|̅̅|̅̅|̅̅|̅̅|̅̅|̅̅|̅̅|̅̅|̅̅| » min module expand
-|̅̅|̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅| » module convintations 
-|̅̅̅̅̅|̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅|
-|̅̅̅̅̅̅̅̅|̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅|
-|̅̅̅̅̅̅̅̅̅̅̅|̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅| 
-|̅̅̅̅̅̅̅̅̅̅̅̅̅̅|̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅|
-|̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅|̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅|
- ̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅
+ ________
+|________| » max module expand
+|__|__|__| » min module expand
+|__|_____| » module convintations
+
+```
+
+###Medium Screen
+```
+ _________________
+|_________________| » max module expand
+|__|__|__|__|__|__| » min module expand
+|__|______________| » module convintations
+|_____|___________|
+|________|________|
+
+```
+
+###Large Screen
+```
+ ___________________________________
+|___________________________________| » max module expand
+|__|__|__|__|__|__|__|__|__|__|__|__| » min module expand
+|_____|_____________________________| » module convintations
+|________|__________________________|
+|___________|_______________________|
+|______________|____________________|
+|_________________|_________________|
+
 ```
 
 ##How to create a layout? 
