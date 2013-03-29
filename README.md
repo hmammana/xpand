@@ -6,7 +6,6 @@ When more space more columns. So you can distribute your design differently.
 
 It has modules. One module is the less expression in the grid. This module can expand to place one or more modules. To more expansion more important is the content in that specific grid. 
 
-<pre>
 ```
  » small «
 |̅̅̅̅̅̅̅̅| » max module expand
@@ -31,7 +30,6 @@ It has modules. One module is the less expression in the grid. This module can e
 |̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅|̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅|
  ̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅
 ```
-</pre>
 
 ##How to create a layout? 
 You have to set some class name `xpand-[1-3]` to the class attribute in the element that you want to expand, or be used like a grid. When you want to set a row, you have to set the `xpand-row` class to it. 
