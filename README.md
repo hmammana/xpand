@@ -15,7 +15,7 @@ When you want to set the followings layouts you have to use the followings attri
 Example:
 
 ```html
-<div class=”xpand-row xpand-3” data-xpand-m=”xpand-row xpand-4” data-xpand-l=”xpand-row xpand-7”>Some content</div>
+<div class="xpand-row xpand-3" data-xpand-m="xpand-row xpand-4" data-xpand-l="xpand-row xpand-7">Some content</div>
 ```
 
 It means that element is a start row element with full size in the default resolution, a 66% in the middle resolution and a 58% of size in the large resolution.
