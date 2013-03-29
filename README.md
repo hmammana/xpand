@@ -6,7 +6,21 @@ When more space more columns. So you can distribute your design differently.
 
 It has modules. One module is the less expression in the grid. This module can expand to place one or more modules. To more expansion more important is the content in that specific grid. 
 
-##Kind of Grids
+
+##How to create a layout? 
+You have to set some class name `xpand-[1-3]` to the class attribute in the element that you want to expand, or be used like a grid. When you want to set a row, you have to set the `xpand-row` class to it. 
+
+When you want to set the followings layouts you have to use the followings attributes `data-xpand-m` for the middle size, and the `data-xpand-l` for the large size. Inside that attributes, as a value, you have to set `xpand-[1-6]` and `xpand-[1-12]`.
+
+Example:
+
+```html
+<div class=”xpand-row xpand-3” data-xpand-m=”xpand-row xpand-4” data-xpand-l=”xpand-row xpand-7”>Some content</div>
+```
+
+It means that element is a start row element with full size in the default resolution, a 66% in the middle resolution and a 58% of size in the large resolution.
+
+The following graphics explains how you can set this grids. The r is equivalent to xpand-row and the number is equivalent to the size of expansions. 
 
 
 ###Small Screen
@@ -18,6 +32,22 @@ It has modules. One module is the less expression in the grid. This module can e
 
 ```
 
+####Snippet
+
+```html
+<!-- max module expansion -->
+<div class="xpand-row xpand-3"></div>
+
+<!-- min module expansion -->
+<div class="xpand-row xpand-1"></div>
+<div class="xpand-1"></div>
+<div class="xpand-1"></div>
+
+<!-- module convinations -->
+<div class="xpand-row xpand-1"></div>
+<div class="xpand-2"></div>
+```
+
 ###Medium Screen
 ```
  _________________
@@ -27,6 +57,30 @@ It has modules. One module is the less expression in the grid. This module can e
 |_____|___________|
 |________|________|
 
+```
+####Snippet
+
+```html
+<!-- max module expansion -->
+<div data-xpand-m="xpand-row xpand-6"></div>
+
+<!-- min module expansion -->
+<div data-xpand-m="xpand-row xpand-1"></div>
+<div data-xpand-m="xpand-1"></div>
+<div data-xpand-m="xpand-1"></div>
+<div data-xpand-m="xpand-1"></div>
+<div data-xpand-m="xpand-1"></div>
+<div data-xpand-m="xpand-1"></div>
+
+<!-- module convinations -->
+<div data-xpand-m="xpand-row xpand-1"></div>
+<div data-xpand-m="xpand-5"></div>
+
+<div data-xpand-m="xpand-row xpand-2"></div>
+<div data-xpand-m="xpand-4"></div>
+
+<div data-xpand-m="xpand-row xpand-3"></div>
+<div data-xpand-m="xpand-3"></div>
 ```
 
 ###Large Screen
@@ -42,17 +96,43 @@ It has modules. One module is the less expression in the grid. This module can e
 
 ```
 
-##How to create a layout? 
-You have to set some class name `xpand-[1-3]` to the class attribute in the element that you want to expand, or be used like a grid. When you want to set a row, you have to set the `xpand-row` class to it. 
+####Snippet
 
-When you want to set the followings layouts you have to use the followings attributes `data-xpand-m` for the middle size, and the `data-xpand-l` for the large size. Inside that attributes, as a value, you have to set `xpand-[1-6]` and `xpand-[1-12]`.
+```html
+<!-- max module expansion -->
+<div data-xpand-l="xpand-row xpand-12"></div>
 
-Example:
+<!-- min module expansion -->
+<div data-xpand-l="xpand-row xpand-1"></div>
+<div data-xpand-l="xpand-1"></div>
+<div data-xpand-l="xpand-1"></div>
+<div data-xpand-l="xpand-1"></div>
+<div data-xpand-l="xpand-1"></div>
+<div data-xpand-l="xpand-1"></div>
+<div data-xpand-l="xpand-1"></div>
+<div data-xpand-l="xpand-1"></div>
+<div data-xpand-l="xpand-1"></div>
+<div data-xpand-l="xpand-1"></div>
+<div data-xpand-l="xpand-1"></div>
+<div data-xpand-l="xpand-1"></div>
 
+<!-- module convinations -->
+<div data-xpand-l="xpand-row xpand-1"></div>
+<div data-xpand-l="xpand-11"></div>
+
+<div data-xpand-l="xpand-row xpand-2"></div>
+<div data-xpand-l="xpand-10"></div>
+
+<div data-xpand-l="xpand-row xpand-3"></div>
+<div data-xpand-l="xpand-9"></div>
+
+<div data-xpand-l="xpand-row xpand-4"></div>
+<div data-xpand-l="xpand-8"></div>
+
+<div data-xpand-l="xpand-row xpand-5"></div>
+<div data-xpand-l="xpand-7"></div>
+
+<div data-xpand-l="xpand-row xpand-6"></div>
+<div data-xpand-l="xpand-6"></div>
 ```
-<div class=”xpand-row xpand-3” data-xpand-m=”xpand-row xpand-4” data-xpand-l=”xpand-row xpand-7”>Some content</div>
-```
 
-It means that element is a start row element with full size in the default resolution, a 66% in the middle resolution and a 58% of size in the large resolution.
-
-The following graphics explains how you can set this grids. The r is equivalent to xpand-row and the number is equivalent to the size of expansions. 
