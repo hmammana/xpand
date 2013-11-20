@@ -37,6 +37,11 @@
 		position: relative;
 	}
 
+	[data-xpand-m*="xpand-i"] {
+		display: inline-block;
+		float: none;
+	}
+
 	[data-xpand-m~="xpand-row"] {
 		margin-left: 0;
 		clear: left;
